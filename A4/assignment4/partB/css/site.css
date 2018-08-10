@@ -1,0 +1,136 @@
+/*********************************************************************************
+*
+* WEB222 – Assignment #4b
+*
+* I declare that this assignment is my own work in accordance with Seneca
+* Academic Policy. No part of this assignment has been copied manually or
+* electronically from any other source (including web sites) or distributed to
+* other students.
+*
+* Name: Sang Jun Park Student ID: 112293170 Date: 2018.03.26
+*
+********************************************************************************/
+
+
+/* Select the main-container class and adjust its size and position */
+.main-container
+{
+    max-width: 960px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Select all <nav> elements that are a child of an element with class “main-container” and adjust its size and position */
+.main-container nav
+{
+    width: 30%;
+    float: left;
+}
+
+/* Select all main classes that are a child of an element with class “main-container” and adjust its size and position */
+.main-container .main
+{
+    width: 70%;
+    float: right;
+}
+
+/* Select all <header> elements that are a child of an element with class “main-container” and adjust its the thickness of padding, background color, color and thickness of the bottom of the border, and size of the bottom of margin*/
+.main-container header
+{
+    padding: 10px;
+    background-color: #eeeeee;
+    border-bottom: 1px solid #cccccc;
+    border-bottom-width: thick;
+    margin-bottom: 30px;
+}
+
+/* Select all <h1> elements that are a child of an element with class “main-container” and adjust its size, font size, position, text position, and size of the top of the margin*/
+.main-container header h1
+{
+    width: 70%;
+    font-size: 24px;
+    float: right;
+    text-align: right;
+    margin-top: 10px;
+}
+
+/* Select all <footer> elements that are a child of an element with class “main-container” and adjust its size of paddings, background color, size and color of the top of the border, and font size */
+.main-container footer
+{
+    clear:both;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #eeeeee;
+    border-top: 1px solid #cccccc;
+    border-top-width: thick;
+    font-size: 13px;
+}
+
+/* Select all <div> elements that have the id "logo" and adjust its size, font size, and font weight */
+#logo
+{
+    width: 30%;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* Select all <img> elements that are a child of an element with id “logo” and adjust its size and alignment */
+#logo img
+{
+    width: 94px;
+    vertical-align:middle;
+}
+
+/* Select all <ul> elements that are a child of a <nav> element that are a child of an element with class “main-container” and adjust its list style */
+nav ul
+{
+    list-style-type: none;
+}
+
+/* Select all <a> elements that are a child of a <ul> element that are a child of an element <nav> and adjust the way its displayed, text decorations, and size of padding */
+nav ul a
+{
+    display: block;
+    text-decoration: none;
+    padding: 5px;
+}
+
+/* Select all province classes that are a child of a <div> element and adjust its size, position size of margin, and height*/
+div.province 
+{
+    width: 30%;
+    float: left;
+    margin: 8px;
+    height: 310px;
+}
+
+/* Select all description classes that are a child of a province class that are a child of a <div> element and adjust its size, scrollbars option, and size of the top and the bottom of margin*/
+div.province .description
+{
+    max-height: 165px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+/* Select all <a> elements that are a child of a province class that are a child of a <div> element and adjust the way its displayed, text alignment, background color, text color, text decorations and size of the padding */
+div.province a 
+{
+    display: block;
+    text-align: center;
+    background-color: #555555;
+    color: #eeeeee;
+    text-decoration: none;
+    padding: 5px;
+}
+
+/* Select all flag classes that are a child of a <img> element and adjust its size */
+img.flag 
+{
+    width: 100%;
+}
