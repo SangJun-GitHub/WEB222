@@ -1,0 +1,197 @@
+﻿#header {
+    width: 1200px;
+    height: 50px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #808080;
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    position: page;
+}
+
+#menu {
+    float: left;
+    width: 100px;
+    height: 800px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 5px;
+    background-color: #DCDCDC;
+    margin-left:4px;
+    position: page;
+}
+
+#content {
+    float: left;
+    width: 910px;
+    height: 800px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 5px;
+    background-color: #DCDCDC;
+    position: page;
+}
+
+.article {
+    width: 80%;
+    height: 60%;
+    margin: 5px auto;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #DCDCDC;
+}
+
+#aside {
+    text-align: center;
+    float: left;
+    width: 140px;
+    height: 800px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #DCDCDC;
+    position: page;
+}
+
+#footer {
+    clear: both;
+    width: 1200px;
+    height: 50px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #DCDCDC;
+    position: page;
+}
+
+
+
+
+
+
+
+/*Registration */
+
+.main-form-body {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    padding: 2px;
+    padding-top: 1px;
+    height: 600px;
+}
+
+h2{
+    text-align:center;
+}
+
+
+.form-style {
+    background: #DCDCDC;
+    border: 1px solid black;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+h4 {
+    border: 1px solid black;
+    background: grey;
+    margin: 0;
+    font-size: 25px;
+    padding-left: 30px;
+}
+
+form label {
+    display: inline-block;
+    width: 40%;
+    text-align: right;
+    font-size: 18px;
+    margin: 0;
+    padding: 10px;
+    vertical-align: top;
+}
+
+form input {
+    border: 1px solid black;
+    width: 30%;
+    padding: 5px;
+    margin: 5px;
+}
+
+form textarea {
+    border: 1px solid black;
+    width: 30%;
+    height: 50px;
+    vertical-align: top;
+    padding: 5px;
+    margin: 5px;
+}
+
+form select {
+    width: 31.3%;
+    padding: 5px;
+    margin: 5px;
+}
+
+li {
+    display: block;
+    list-style-type: none;
+}
+
+#estatus {
+    width: 31%;
+    height: 100px;
+    margin-left: 43%;
+    border-radius: 25px;
+    padding: 0 0;
+}
+
+    #estatus input {
+        width: 10px;
+        vertical-align: middle;
+    }
+
+    #estatus ul {
+        padding-left: 0px;
+        margin: 0px;
+    }
+
+#formButtons {
+    padding-top: 50px;
+    height: 100px;
+    padding-left: 40%;
+}
+
+
+.required:after {
+    color: red;
+    content: " *";
+}
+
+.error {
+    width: 31%;
+    color: red;
+    box-sizing: border-box;
+    margin-left: 44%;
+    word-break: keep-all;
+}
+
+.fieldStatusError {
+    display: inline-block;
+    color: red;
+}
+
+.fieldStatusNoError {
+    display: inline-block;
+    color: green;
+}
+
+.fieldStatusEmpty {
+    display: inline-block;
+}

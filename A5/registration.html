@@ -1,0 +1,149 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Sang Jun's Page</title>
+    <link rel="stylesheet" href="./style.css" />
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+    <header id="header">
+        Welcome to Sang Jun's Web Page
+    </header>
+
+    <section id="menu">
+
+        <br /><br /> <a href="index.html">
+            <input type="button" value="home" style="width:100px; height:50px;" />
+        </a><br /> <br />
+        <a href="Registration.html">
+            <input type="button" value="Registration" style="width:100px; height:50px;" />
+        </a><br /><br />
+
+    </section>
+
+
+    <section id="content">
+        <article class="main">
+            <div class="main-form-body">
+
+                <h2>Registration Page</h2>
+
+
+
+                <form id="mainForm" action="https://httpbin.org/post" method="post" onchange="return validateForm();" onsubmit="return validateForm();">
+                    <div class="form-style">
+                        <h4>Registration</h4>
+
+                        <label for="fname" class="required">First Name</label>
+                        <input type="text" name="fname" id="fname" required><div class="fieldStatusEmpty" id="fNameChecked"></div><br>
+                        <div id="fNameError" class="error"></div>
+
+
+                        <label for="lname" class="required">Last Name</label>
+                        <input type="text" name="lname" id="lname" required><div class="fieldStatusEmpty" id="lNameChecked"></div><br>
+                        <div id="lNameError" class="error"></div>
+
+                        <label for="email" class="required">Email</label>
+                        <input type="email" name="email" id="email" autofocus required><br>
+
+                        <label for="password" class="required">Password</label>
+                        <input type="password" name="password" id="password" required><div class="fieldStatusEmpty" id="passChecked"></div><br>
+                        <div id="passError" class="error"></div>
+                        <label for="repassword" class="required">Retype Password</label>
+                        <input type="password" name="repassword" id="repassword" required><div class="fieldStatusEmpty" id="repassChecked"></div><br>
+                        <div id="passErrorRe" class="error"></div>
+
+
+
+                        <label for="phone" class="required">Telephone</label>
+                        <input type="tel" name="phone" id="phone" placeholder="NNN-NNNN-NNNN" required><div class="fieldStatusError" id="telChecked"></div><br>
+                        <div id="pError" class="error"></div>
+
+                        <label for="address" class="required">Address</label>
+                        <input type="text" name="address" id="address" required><br>
+
+                        <label for="city" class="required">City</label>
+                        <input type="text" name="city" id="city" required><br>
+
+
+                        <label class="required" for="province">Province</label>
+                        <select name="province" id="province" size=1>
+                            <optgroup label="Provinces">
+                                <option value="AB" selected>Alberta</option>
+                                <option value="BC">British Columbia</option>
+                                <option value="MB">Manitoba</option>
+                                <option value="NB">New Brunswick</option>
+                                <option value="NL">Newfoundland and Labrador</option>
+                                <option value="NS">Nova Scotia</option>
+                                <option value="ON">Toronto</option>
+                                <option value="PE">Prince Edward Island</option>
+                                <option value="QC">Quebec</option>
+                                <option value="SK">Saskatchewan</option>
+                            </optgroup>
+                            <optgroup label="Territories">
+                                <option value="NT">Northwest Territories</option>
+                                <option value="NU">Nunavut</option>
+                                <option value="YT">Yukon</option>
+                            </optgroup>
+                        </select> <br>
+                        <label for="postal" class="required">Postal Code</label>
+                        <input type="text" name="postal" id="postal" required><br>
+
+
+                        <label for="countrySelect" class="required">Country</label>
+                        <input list="country" name="countrySelect" id="countrySelect" required><br>
+                        <datalist id="country">
+                            <option value="South Korea"
+                            <option value="Canada">
+                            <option value="The United States">
+                            <option value="The United Kingdom">
+                            <option value="Germany">
+                            <option value="Sweden">
+                        </datalist>
+
+                    </div>
+                    <!-- buttons --><br /><br />
+                    <div id="formButtons">
+                        <input type="reset" value="Reset" onclick="clearForm();">
+                        <input type="submit" value="Submit">
+
+                    </div>
+
+                </form>
+            </div>
+
+
+
+        </article>
+    </section>
+    <aside id="aside">
+
+        <br /><br /><br />
+        <a href="http://www.senecacollege.ca/home.html" target="_blank">
+            <img src="seneca-logo.png" width="130" alt="Seneca" />
+        </a><br /><br /><br /><br />
+        <a href="https://www.google.com/" target="_blank">
+            <img src="googlelogo.png" width="130" alt="Google" />
+        </a><br /><br /><br /><br />
+
+        <a href="https://www.w3schools.com/" target="_blank">
+            <img src="w3.png" width="130" alt="w3School" />
+        </a><br /><br /><br />
+
+
+    </aside>
+    <footer id="footer">
+        <br />
+        <address> &copy;2018 Sang Jun Park </address>
+    </footer>
+
+
+    <script src="registration.js"></script>
+
+</body>
+</html>
